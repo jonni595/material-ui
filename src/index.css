@@ -19,8 +19,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+
 body {
   display: flex;
-  min-width: 320px;
   min-height: 100vh;
 }
